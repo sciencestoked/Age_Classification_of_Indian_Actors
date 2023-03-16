@@ -1,5 +1,3 @@
-# Untitled
-
 ## **Age Detection of Indian Actors**
 
 This project aims to classify Indian actors into three age groups: MIDDLE, YOUNG, and OLD, using deep learning techniques. The dataset consists of approximately 19,000 images and is highly imbalanced, which is handled using label smoothing regularization and stratified K-fold cross-validation techniques.
