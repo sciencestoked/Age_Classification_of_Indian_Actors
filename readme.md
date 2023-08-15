@@ -1,28 +1,28 @@
 ## **Age Detection of Indian Actors**
 
-This project aims to classify Indian actors into three age groups: MIDDLE, YOUNG, and OLD, using deep learning techniques. The dataset consists of approximately 19,000 images and is highly imbalanced, which is handled using label smoothing regularization and stratified K-fold cross-validation techniques.
+This project employs deep learning techniques to classify Indian actors into three age groups: MIDDLE, YOUNG, and OLD. The dataset encompasses around 19,000 images, posing a challenge due to significant imbalance. We address this with label smoothing regularization and stratified K-fold cross-validation.
 
 ### **Dataset**
 
-The dataset used for this project is publicly available on the **[Analytics Vidhya website](https://datahack.analyticsvidhya.com/contest/practice-problem-age-detection/)**. It consists of images of Indian actors from different movies and TV shows, with ages ranging from 1 to 100 years old.
+The dataset is publicly available on the **[Analytics Vidhya website](https://datahack.analyticsvidhya.com/contest/practice-problem-age-detection/)**. It spans images of Indian actors across movies and TV shows, depicting ages from 1 to 100 years old.
 
 ### **Model Architecture**
 
-Several deep learning models were trained and tested for this project, including EfficientNet B2 and B3, ResNeXt50, and DenseNet121. The final model was created by ensembling the outputs of these models using averaging technique.
+Multiple deep learning models were employed, including EfficientNet B2 and B3, ResNeXt50, and DenseNet121. We finalized the model through ensembling these models' outputs using averaging.
 
 ### **Code**
 
-The code for this project is written in Python using the PyTorch and scikit-learn libraries. The main files in the repository include:
+Our code, implemented in Python using PyTorch and scikit-learn, is organized into key files:
 
-- **`data_preprocessing.ipynb`**: Jupyter notebook containing code for preprocessing the data, including resizing the images, converting them to grayscale, and splitting the dataset into training and validation sets.
-- **`train_models.ipynb`**: Jupyter notebook containing code for training the deep learning models using PyTorch, as well as the ensembling technique to create the final model.
-- **`test_model.ipynb`**: Jupyter notebook containing code for testing the final model on the test dataset and generating the submission file.
-- **`utils.py`**: Python script containing utility functions used in the project.
+- **`data_preprocessing.ipynb`**: Jupyter notebook for preprocessing, including resizing, grayscale conversion, and dataset division.
+- **`train_models.ipynb`**: Jupyter notebook to train models using PyTorch and apply ensembling.
+- **`test_model.ipynb`**: Jupyter notebook for testing the final model and generating submissions.
+- **`utils.py`**: Python script with utility functions.
 
 ### **Results**
 
-The final model achieved an accuracy of 92.7% and ranked 31 out of 8082 participants in the competition.
+The model achieved 92.7% accuracy, securing the 31st position out of 8082 participants in the competition.
 
 ### **Conclusion**
 
-This project demonstrates the use of deep learning techniques for age detection of Indian actors. The final model achieved high accuracy and can be used in real-world applications for automatic age detection in images and videos.
+This project showcases effective deep learning techniques for age detection in Indian actors. The high-performing model holds potential for real-world image and video applications, automating age detection with precision.
